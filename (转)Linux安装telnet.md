@@ -18,3 +18,6 @@ telnet-0.17-47.el6_3.1.x86_64
 [root@localhost ~]#netstat -tnl |grep 23  
 tcp 0 0 0.0.0.0:23 0.0.0.0:* LISTEN  
 如果上面的一行存在就说明服务已经运行了。如果netstat命令没有返回内容，我们就只好继续进行更深入的配置了。
+
+
+[参考](https://www.cnblogs.com/zuochuang/p/6511285.html)
