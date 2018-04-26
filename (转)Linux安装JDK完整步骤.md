@@ -1,3 +1,11 @@
+- [1,检查一下系统中的jdk版本](#1-jdk)
+- [2,检测jdk安装包](#2-jdk)
+- [3,卸载openjdk](#3-openjdk)
+- [4，安装新的jdk](#4jdk)
+- [5，设置环境变量](#5)
+- [6，执行profile文件](#6profile)
+- [7，检查新安装的jdk](#7jdk)
+
 #### 1,检查一下系统中的jdk版本
 ```
 [root@localhost software]# java -version
@@ -12,6 +20,7 @@ OpenJDK 64-Bit Server VM (build 25.102-b14, mixed mode)
 ```
 [root@localhost software]# rpm -qa | grep java
 ```
+显示：
 ```
 java-1.7.0-openjdk-1.7.0.111-2.6.7.8.el7.x86_64
 python-javapackages-3.4.1-11.el7.noarch
