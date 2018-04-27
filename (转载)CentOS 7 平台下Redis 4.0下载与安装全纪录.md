@@ -19,15 +19,15 @@ Saving to: ‘redis-4.0.2.tar.gz’
 ```
 
 #### 2,编译安装
-#####（1）解压缩
+##### （1）解压缩
 ```
 [root@node3 ~]# tar -zxvf redis-4.0.2.tar.gz
 ```
-#####（2）进入redis根目录
+##### （2）进入redis根目录
 ```
 [root@node3 ~]# cd redis-4.0.2
 ```
-#####（3）开始编译
+##### （3）开始编译
 ```
 [root@node3 redis-4.0.2]# make -j 4
 cd src && make all
@@ -102,7 +102,7 @@ make[1]: Leaving directory `/root/redis-4.0.2/src'
 make: *** [all] Error 2
 [root@node3 redis-4.0.2]
 ```
-#####（4）解决依赖关系 
+##### （4）解决依赖关系 
  由于新安装的Linux系统没有安装gcc环境
  ```
  [root@node3 redis-4.0.2]# yum install -y gcc
