@@ -1,3 +1,5 @@
+<div bgcolor=#FFF>
+
 #### 1，下载
 下载地址：[http://redis.io/download](http://redis.io/download)
 当前最新稳定版是4.0.9，下载链接是[http://download.redis.io/releases/redis-4.0.9.tar.gz](http://download.redis.io/releases/redis-4.0.9.tar.gz)
@@ -242,3 +244,5 @@ OK
 ```
 
 [参考](https://blog.csdn.net/chengyuqiang/article/details/78379332)
+
+</div>
