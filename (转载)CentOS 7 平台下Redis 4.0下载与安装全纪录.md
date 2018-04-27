@@ -1,4 +1,3 @@
-<div bgcolor=#FFF>
 
 #### 1，下载
 下载地址：[http://redis.io/download](http://redis.io/download)
@@ -244,5 +243,3 @@ OK
 ```
 
 [参考](https://blog.csdn.net/chengyuqiang/article/details/78379332)
-
-</div>
