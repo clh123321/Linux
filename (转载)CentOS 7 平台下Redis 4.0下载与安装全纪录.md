@@ -1,9 +1,9 @@
 #### 1，下载
 下载地址：[http://redis.io/download](http://redis.io/download)
-当前最新稳定版是4.0.9，下载链接是[http://download.redis.io/releases/redis-4.0.2.tar.gz](http://download.redis.io/releases/redis-4.0.2.tar.gz)
+当前最新稳定版是4.0.9，下载链接是[http://download.redis.io/releases/redis-4.0.9.tar.gz](http://download.redis.io/releases/redis-4.0.9.tar.gz)
 ```linux
-[root@node3 ~]# wget http://download.redis.io/releases/redis-4.0.2.tar.gz
---2017-10-28 08:06:18--  http://download.redis.io/releases/redis-4.0.2.tar.gz
+[root@node3 ~]# wget http://download.redis.io/releases/redis-4.0.9.tar.gz
+--2017-10-28 08:06:18--  http://download.redis.io/releases/redis-4.0.9.tar.gz
 Resolving download.redis.io (download.redis.io)... 109.74.203.151
 Connecting to download.redis.io (download.redis.io)|109.74.203.151|:80... connected.
 HTTP request sent, awaiting response... 200 OK
