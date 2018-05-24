@@ -97,3 +97,15 @@ java    4638 root   41u  IPv6  23412      0t0  TCP *:us-cli (LISTEN)
 kill -9 4638
 
 4,输入netstat -tln,查看系统当前所有被占用端口,主要是为了查看你的端口是否真正的被占用着,搭建可以看到我的9001,和9002端口都已经被占用了,所以我需要释放这两个端口
+
+### 11，查看系统信息
+1) 登录到服务器执行 lsb_release -a ,即可列出所有版本信息
+2) 登录到linux执行cat /etc/issue
+3) 登录到linux执行cat /etc/redhat-release
+4) 登录到linux执行rpm -q redhat-release 
+5) [root@SOR_SYS ~]# file /bin/bash
+6) [root@SOR_SYS ~]# file /bin/cat 
+
+### 12，删除隐藏文件
+1）ls -a 查看所有文件
+2）sudo rm -r .bash_profile.swp 删除隐藏文件
